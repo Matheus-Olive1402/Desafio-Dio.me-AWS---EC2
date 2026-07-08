@@ -1,4 +1,4 @@
-# AWS Serverless Data Processing Pipeline
+# Desafio 1 - instâncias EC2 na AWS
 
 ## 📌 Visão Geral
 
