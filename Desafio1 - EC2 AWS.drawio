@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="svA2gkD9eYGpbsgGT1qC">
+    <mxGraphModel dx="707" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9Z70ITORt1IvNKePi7z0-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="430" width="500" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-1" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.end_user;strokeColor=none;fillColor=#777777;aspect=fixed;" value="Usuário" vertex="1">
+          <mxGeometry height="100.46" width="49" x="76" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-2" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNE;fillColor=#000000;aspect=fixed;" value="Upload&lt;div&gt;arquivo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="45.5" x="130.5" y="506.8" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-3" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.s3Bucket;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;strokeColor2=#292929;" value="Bucket&lt;div&gt;Entrada&lt;/div&gt;" vertex="1">
+          <mxGeometry height="63.800000000000004" width="61.5" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-5" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNE;fillColor=#000000;aspect=fixed;" value="ObjectCreated&amp;nbsp;&lt;div&gt;Event&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="45.5" x="262" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-6" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.lambda;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;strokeColor3=#ffffff;" value="Validação /&amp;nbsp;&lt;div&gt;Trigger&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85.7" width="72" x="310.5" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-10" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application_server;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;" value="Processamento ETL&amp;nbsp;" vertex="1">
+          <mxGeometry height="83.67" width="83" x="450" y="423.13" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-12" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowSE;fillColor=#000000;aspect=fixed;" value="Start EC2 /&lt;div&gt;&amp;nbsp;SSM /&amp;nbsp;&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="45.5" x="383" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-13" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.ebs;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;" value="Dados&amp;nbsp;&lt;div&gt;Temporários&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="92" x="570" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-14" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNE;fillColor=#000000;aspect=fixed;" value="Leitura e&lt;div&gt;&amp;nbsp;Escrita&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="45.5" x="540" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-15" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.s3;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;" value="Bucket&amp;nbsp;&lt;div&gt;Processado&amp;nbsp;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104.79" width="101.5" x="450" y="225.21" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-16" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowNW;fillColor=#000000;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="26" width="45.5" x="540" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9Z70ITORt1IvNKePi7z0-19" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="75" width="75" x="150" y="151" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
